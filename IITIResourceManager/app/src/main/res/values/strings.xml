@@ -4,5 +4,8 @@
     <string name="app_name">IITIResourceManager</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="AdminLogin">Admin Login</string>
+    <string name="History">History</string>
+    <string name="submit">Submit A Request</string>
+    <string name="requests">Requests</string>
 </resources>
