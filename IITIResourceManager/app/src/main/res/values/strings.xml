@@ -8,4 +8,19 @@
     <string name="History">History</string>
     <string name="submit">Submit A Request</string>
     <string name="requests">Requests</string>
+    <string name="title_activity_my_sqlite_helper">MySQLiteHelper</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_admin_login">AdminLogin</string>
+    <string name="entpw">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="title_activity_login_error">LoginError</string>
+    <string name="title_activity_request_entry">RequestEntry</string>
+    <string name="loginerror">Incorrect Password</string>
+    <string name="title_activity_history_entry">HistoryEntry</string>
+    <string name="enterrollno">Enter RollNumber</string>
+    <string name="enteritem">Enter Item</string>
+    <string name="entertime">Enter Time</string>
+    <string name="enterdate">Enter Date</string>
+    <string name="entertype">Enter Type</string>
+    <string name="add">Add</string>
 </resources>

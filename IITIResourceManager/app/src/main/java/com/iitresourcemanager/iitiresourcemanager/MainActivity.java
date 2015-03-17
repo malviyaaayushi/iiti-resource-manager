@@ -1,9 +1,12 @@
 package com.iitresourcemanager.iitiresourcemanager;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -12,6 +15,22 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        final Intent intent1=new Intent(this,History.class);
+        Button history=(Button)findViewById(R.id.history);
+        history.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(intent1);
+            }
+        });
+        final Intent intent2=new Intent(this,AdminLogin.class);
+        Button adminlogin=(Button)findViewById(R.id.admin);
+        adminlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(intent2);
+            }
+        });
     }
 
 
